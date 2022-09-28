@@ -1,0 +1,164 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.profile{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(200, 50, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('thirdpic.jpg');
+    background-size: auto;
+}
+
+.first{
+    /* height: 300px;  */
+    width: 40%;
+    /* background-color: white; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.pro_img{
+    width: 100%;
+}
+
+
+.pro_image{
+    height: 100px; 
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.name{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.namee{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nameee{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icon{
+    font-size: 10px;
+    color: white;
+    display: flex;
+    column-gap: 10px;
+}
+
+/* css projects */
+
+.projects{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 10%;
+    /* background-color: coral; */
+    /* background-image: url('sixthpic.jpg'); */
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 200;
+}
+
+.works{
+    /* height: 100px;  */
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    padding-top: 20px;
+    display: flex;
+    column-gap: 1.22%;
+    row-gap: 1.22%;
+    flex-wrap: wrap;
+}
+
+.work{
+    height: 250px;
+    width: 32%;
+    background-color: red;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-end ;
+
+
+
+}
+
+.work_detail{
+    min-height: 0;
+    background-color:pink;
+    width: 100%;
+    padding: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .3s;
+
+
+}
+.work_detail:hover{
+    min-height:50%;
+}    
+.work:nth-child(1){
+    background-image: url('mypic.jpg');
+
+}
+.link{
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.work:nth-child(2){
+    background-image: url('secondpic.jpg');
+
+}
+
+.work:nth-child(3){
+    background-image: url('thirdpic.jpg');
+
+}
+
+.work:nth-child(4){
+    background-image: url('fourthpic.jpg');
+
+}
+.work:nth-child(5){
+    background-image: url('fifthpic.jpg');
+
+}
+
+.work:nth-child(6){
+    background-image: url('sixthpic.jpg');
+
+}
+
+
+
+
+
+
+
